@@ -1,1 +1,2 @@
 # Looper
+Looper Android me ek ahem component hai jo message loop ko manage karta hai. Yeh thread ke message queue ko manage karne aur un messages ko handle karne ke liye use hota hai. Har thread, jo Looper chalata hai, ek message queue ko process kar sakta hai. Main (UI) thread ko ek default Looper milta hai jab application start hoti hai, aur yeh Looper UI updates aur event handling ko manage karta hai.
